@@ -81,7 +81,7 @@
 .dark {
   --background: oklch(0.1371 0.036 258.5);
   --foreground: oklch(0.9838 0.0035 247.86);
-  --card: oklch(0.205 0 0);
+  --card: oklch(0.1371 0.036);
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(0.205 0 0);
   --popover-foreground: oklch(0.985 0 0);
@@ -137,5 +137,5 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: var(--primary) / 0.8;
+  background-color: var(--primary) / 0.5;
 }
